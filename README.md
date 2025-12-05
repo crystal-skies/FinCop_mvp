@@ -2,8 +2,8 @@
 Hi! This is a small mvp to start showing what we have. 
 
 ## Prerequisites
-1. Drivers of NVIDIA (`nvidia-smi`)
-2. Conda  
+1. NVIDIA drivers (`nvidia-smi`)
+3. Conda  
 
 ## Instalation
 We're using python=3.9 for compatibility with Deep Learning.
