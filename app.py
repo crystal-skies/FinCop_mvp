@@ -13,10 +13,9 @@ import cv2
 # ocr_version='PP-d' -> El modelo más reciente y preciso
 @st.cache_resource
 def load_ocr():
-    # Opción A: Configuración explícita (Más segura en Linux)
+    # Configuración explícita (Más segura en Linux)
     paddle.set_device('gpu')
     
-    # Opción B: Pasarlo como argumento (Funciona en v2.7.3)
     # Volvemos a usar use_gpu=True porque en la v2.7.3 SÍ EXISTE y funciona bien.
     return PaddleOCR(
         use_angle_cls=True, 
