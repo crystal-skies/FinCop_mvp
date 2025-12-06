@@ -1,0 +1,43 @@
+[
+  {
+    "companyName": "Tottus",
+    "ruc": "20503565934",
+    "date": "2023-12-05",
+    "total": 2.6,
+    "currency": "PEN",
+    "category": "Alimentos",
+    "items": [
+      "AGUA CIELO CON G",
+      "BEBIDA CIFRUIT F"
+    ],
+    "id": "1765056231735",
+    "created_at": "2025-12-06T16:23:51.735032"
+  },
+  {
+    "companyName": "BEMBOS",
+    "ruc": "20101087647",
+    "date": "2025-12-05",
+    "total": 29.8,
+    "currency": "PEN",
+    "category": "Restaurante",
+    "items": [
+      "Menu taypa",
+      "Combo tartara"
+    ],
+    "id": "1765055762523",
+    "created_at": "2025-12-06T16:16:02.523385"
+  },
+  {
+    "companyName": "Dollar City",
+    "ruc": "20606109343",
+    "date": "2025-12-05",
+    "total": 3.0,
+    "currency": "PEN",
+    "category": "Market",
+    "items": [
+      "GALLETA WAFER VAINILLA VITAREL"
+    ],
+    "id": "1765055690483",
+    "created_at": "2025-12-06T16:14:50.483495"
+  }
+]
