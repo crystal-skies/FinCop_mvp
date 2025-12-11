@@ -17,7 +17,7 @@ st.set_page_config(page_title="BillMaster AI", page_icon="💰", layout="wide")
 try:
     API_KEY = st.secrets["GOOGLE_API_KEY"]
 except:
-    API_KEY = "AIzaSyD5ofmcUJAGzB2aGBezYU3Tj1k84Dc0XKQ" 
+    API_KEY = "tu_api_key" 
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
